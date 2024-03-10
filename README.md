@@ -6,12 +6,17 @@ Welcome to CryptoStatus, a responsive website dedicated to providing users with 
 The project is deployed on netlify - https://verdant-begonia-3f46f9.netlify.app/
 
 # Tech Stacks
-HTML
-CSS
-ReactJS
-Tailwind Css
-React-chart.js 2
-moment
+ HTML,
+ 
+ CSS,
+ 
+ ReactJS,
+ 
+ Tailwind Css,
+ 
+ React-chart.js 2,
+ 
+ moment
 
 # Overview
 
