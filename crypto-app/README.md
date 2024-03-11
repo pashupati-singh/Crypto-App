@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Crypto-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to CryptoStatus, a responsive website dedicated to providing users with real-time information about the cryptocurrency market. This project integrates with CoinGecko, a leading platform for cryptocurrency data, to offer users insights into trending cryptocurrencies and market values.
 
-## Available Scripts
+# Depoyed Link :
+The project is deployed on netlify - https://verdant-begonia-3f46f9.netlify.app/
 
-In the project directory, you can run:
+# Tech Stacks
+ HTML
+ 
+ CSS
 
-### `npm start`
+ ReactJS
+ 
+ Tailwind Css
+ 
+ React-chart.js 2
+ 
+ moment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+CryptoStatus is a web application designed to help users stay informed about the latest developments in the cryptocurrency market. The website features a responsive design built with Tailwind CSS for styling. It utilizes Moment.js to display dates in a format of month and day. The website includes a navbar with a logo and the name of the website, followed by two types of tables:
 
-### `npm test`
+Trending Cryptocurrencies: This table displays cryptocurrencies that are currently trending, providing users with insights into which coins are gaining traction among users. This data is fetched from the CoinGecko Trending API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Market Values: This table shows the current market values of various cryptocurrencies, including prices, market capitalization, and trading volume. The data is fetched from the CoinGecko Market Values API.
 
-### `npm run build`
+Additionally, the website utilizes React-Chartjs-2 to display fluctuations in the price value of cryptocurrencies over the last 7 days, and it's all designed to adapt seamlessly to different screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Coingecko API'S 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Trending:- https://api.coingecko.com/api/v3/search/trending
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Market:- https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&locale=en 
 
-### `npm run eject`
+# Features
+Great! Here's the updated README file reflecting the use of Tailwind CSS and Moment.js:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Responsive Design: The website is fully responsive, ensuring a consistent and optimal viewing experience across devices of all sizes. Tailwind CSS is used for styling to maintain a clean and modern design.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Navbar: A navbar with a logo and the name of the website for easy navigation.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Trending Cryptocurrencies: Displays cryptocurrencies that are currently trending, providing insights into user preferences and market sentiment.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Market Values: Shows real-time market values of various cryptocurrencies, including prices, market capitalization, and trading volume.
 
-## Learn More
+Price Fluctuation Chart: Utilizes React-Chartjs-2 to visualize fluctuations in the price value of cryptocurrencies over the last 7 days.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
